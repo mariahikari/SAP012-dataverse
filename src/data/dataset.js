@@ -1,364 +1,344 @@
 export default [
   {
-    "id": "ada-lovelace",
-    "name": "Ada Lovelace",
-    "shortDescription": "Pionera en la programación, primera programadora de la historia.",
-    "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
-    "facts": {
-      "yearOfBirth": "1815",
-      "yearOfDeath": "1852",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Ciencia de la Computación"
+    "id": "o-conto-de-aia",
+    "livro": "O Conto de Aia",
+    "Autora": "Margaret Atwood",
+    "sobreOLivro": "O Conto da Aia foi escrito por Margaret Atwood e publicado pela primeira vez em 1985, o livro rapidamente se tornou um clássico da literatura contemporânea e tem ganhado ainda mais relevância ao longo dos anos, especialmente devido às suas ressonâncias com questões sociais e políticas.",
+    "sinopse": "A narrativa se passa em um futuro próximo, em uma sociedade totalitária chamada Gilead, que foi formada após uma revolução religiosa que derrubou o governo anterior nos Estados Unidos. Em Gilead, as mulheres são fortemente oprimidas e segregadas em papéis específicos. A protagonista, conhecida como Defred (De Of-Fred), é uma aia, uma mulher designada para procriar com o Comandante e sua esposa, uma prática destinada a combater a diminuição da fertilidade na sociedade.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg", //AJUSTAR ORDEM E LINK
+    "detalhes": {
+      "numeroDePaginas": "368",
+      "preçoMedio": "R$ 45 - R$ 70", //Ao invés do valor podemos colocar só a classificação por $, $$, $$$ ou $$$$
+      "genero": "Ficção"
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
+    "curiosidade": {
+      "premios": "Arthur C. Clarke (1987), Governor General's Award (1985), Booker (1986), Nebula (1986), Prometheus (1987) e Golden Booker (2018)",
+      "adaptações": "A adaptação mais conhecida é a série de televisão The Handmaid's Tale, produzida pelo serviço de streaming Hulu. A série estreou em 2017 e recebeu aclamação da crítica e numerosos prêmios, incluindo o Emmy Awards. Antes da série, foi feita uma adaptação cinematográfica do livro em 1990, que embora tenha divergências em relação ao livro, o ainda aborda os temas distópicos e as questões feministas exploradas na obra de Margaret Atwood.",
+      "temasPrincipais": "Controle Social, Feminismo, Religião, Liberdade e Identidade"
     }
   },
   {
-    "id": "emmy-noether",
-    "name": "Emmy Noether",
-    "shortDescription": "Matemática destacada, teorema fundamental en álgebra abstracta.",
-    "description": "Una brillante matemática alemana, revolucionó la física teórica con sus contribuciones al teorema de conservación de la energía y el teorema de Noether, fundamentales en la teoría de la relatividad y la mecánica cuántica. A pesar de los obstáculos que enfrentó como mujer en la academia, sus investigaciones en álgebra abstracta y teoría de grupos son fundamentales en la física moderna. Su capacidad para unificar conceptos matemáticos y físicos marcó un hito en la historia de la ciencia, allanando el camino para futuras generaciones de científicas.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
-    "facts": {
-      "yearOfBirth": "1882",
-      "yearOfDeath": "1935",
-      "birthPlace": "Erlangen, Alemania",
-      "mainField": "Matemáticas"
+    "id": "harry-potter-e-a-pedra-filosofal",
+    "livro": "Harry Potter e a Pedra Filosofal",
+    "autora": "J.K. Rowling",
+    "sobreOLivro": "Harry Potter e a Pedra Filosofal é o primeiro livro da série Harry Potter, escrita pela autora britânica J.K. Rowling. A história foi publicada originalmente em 1997 e se tornou um fenômeno literário mundial e uma das franquias mais bem-sucedidas da história, contribuindo significativamente para a popularização da literatura infanto-juvenil.",
+    "sinopse": "A narrativa gira em torno de um jovem chamado Harry Potter, que, após uma infância difícil e não muito comum, descobre que é um bruxo. Ele é convidado a ingressar na Escola de Magia e Bruxaria de Hogwarts, onde conhece novos amigos e descobre um mundo mágico repleto de criaturas fantásticas, feitiços e mistérios. O enredo principal do primeiro livro segue Harry enquanto ele tenta desvendar o mistério por trás da Pedra Filosofal, um objeto que concede imortalidade.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg", //AJUSTAR ORDEM E LINK
+    "detalhes": {
+      "numeroDePaginas": "264",
+      "preçoMedio": "R$ 38 - R$ 50",
+      "genero": "Ficção"
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
+    "curiosidade": {
+      "premios": "British Book Awards (1998), Smarties Prize (1997), Nestlé Smarties Book Prize (1997), Children's Book Award (1998) e British Book Awards (1999)",
+      "adaptações": "Os sete livros foram adaptados para uma série de oito filmes seguindo a jornada de Harry Potter desde sua chegada em Hogwarts até o confronto final com o vilão Lord Voldemort. Os filmes foram um grande sucesso de bilheteria e conquistou uma legião de fãs ao redor do mundo.",
+      "temasPrincipais": "Magia, Amizade, Coragem e Autoconhecimento"
     }
   },
   {
-    "id": "hypatia-de-alejandria",
-    "name": "Hypatia de Alejandría",
-    "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
-    "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
-    "facts": {
-      "yearOfBirth": "circa 360",
-      "yearOfDeath": "415",
-      "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía"
+    "id": "jogos-vorazes",
+    "livro": "Jogos Vorazes",
+    "autora": "Suzanne Collins",
+    "sobreOLivro": "Jogos Vorazes é o primeiro livro da trilogia homônima escrita por Suzanne Collins. Publicado em 2008, o livro mistura elementos de ficção científica, distopia e ação, criando um mundo pós-apocalíptico intrigante e repleto de suspense.",
+    "sinopse": "O enredo se passa em Panem, uma nação dividida em doze distritos e governada pela Capital. Para punir os distritos por uma revolta passada, a Capital institui os Jogos Vorazes, um evento anual em que um garoto e uma garota de cada distrito são escolhidos para participar de uma luta até a morte transmitida para todo o país. A protagonista, Katniss Everdeen, uma jovem do Distrito 12, se voluntaria para os Jogos no lugar de sua irmã, Prim. Ao lado de Peeta Mellark, outro tributo do Distrito 12, Katniss enfrenta desafios mortais enquanto luta pela sua sobrevivência.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg", //AJUSTAR ORDEM E LINK
+    "detalhes": {
+      "numeroDePaginas": "400",
+      "preçoMedio": "R$ 45 - R$ 50",
+      "genero": "Ficção"
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
+    "curiosidade": {
+      "premios": "Goodreads Choice Award for Young Adult Fantasy & Science Fiction (2008), California Young Reader Medal for Young Adult (2011), Children's Choice Book Award for Teen Choice Book of the Year (2009), Georgia Peach Book Award for Honor (2010), Pennsylvania Young Readers' Choice Award for Young Adults (2010).",
+      "adaptações": "Jogos Vorazes, além de ser um best-seller na literatura, foi adaptado para o cinema em uma bem-sucedida franquia de filmes. A adaptação cinematográfica foi lançada em quatro partes, Jogos Vorazes (2012), Jogos Vorazes: Em Chamas (2013), Jogos Vorazes: A Esperança - Parte 1 (2014) e Jogos Vorazes: A Esperança - Parte 2 (2015).",
+      "temasPrincipais": "Desigualdade Social, Controle Estatal, Ética na Sobrevivência e Manipulação Midiática"
     }
-  },
+  }, 
   {
-    "id": "marjorie-lee-browne",
-    "name": "Marjorie Lee Browne",
-    "shortDescription": "Matemática, contribuyó a la teoría de números.",
-    "description": "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
-    "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "1979",
-      "birthPlace": "Memphis, Estados Unidos",
-      "mainField": "Matemáticas"
+    "id": "para-todos-os-garotos-que-já-amei",
+    "livro": "Para Todos Os Garotos Que Já Amei",
+    "autora": "Jenny Han",
+    "sobreOLivro": "Para Todos os Garotos que Já Amei é um romance jovem escrito por Jenny Han. O livro foi publicado em 2014 e rapidamente se tornou um sucesso, gerando uma trilogia e uma adaptação cinematográfica pela Netflix.",
+    "sinopse": "O livro gira em torno de Lara Jean Covey, uma adolescente que escreve cartas secretas para todos os garotos por quem já se apaixonou. Essas cartas são apenas uma forma de desabafar, até que um dia, misteriosamente, elas são enviadas aos destinatários, incluindo seu vizinho Josh e seu ex-namorado Peter. O que começa como um pesadelo para Lara Jean se transforma em uma jornada de autodescoberta, amor e amizade.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg", //AJUSTAR ORDEM E LINK
+    "detalhes": {
+      "numeroDePaginas": "320",
+      "preçoMedio": "R$ 40 - R$ 45",
+      "genero": "Ficção"
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
+    "curiosidade": {
+      "premios": "Goodreads Choice Award para Jovens Adultos (2014)",
+      "adaptações": "Para Todos os Garotos que Já Amei é um filme de comédia romântica lançado em 2018, o sucesso do primeiro filme levou à produção de duas sequências: Para Todos os Garotos: P.S. Ainda Amo Você (2020) e Para Todos os Garotos: Agora e Para Sempre (2021).",
+      "temasPrincipais": "Relacionamentos Complexos e Adolescencia"
     }
-  },
+  }, 
   {
-    "id": "shakuntala-devi",
-    "name": "Shakuntala Devi",
-    "shortDescription": "Matemática prodigio, conocida como la 'Calculadora Humana'.",
-    "description": "Conocida como \"la bruja de las matemáticas\" de la India, dejó una marca indeleble en el mundo de los números. Su capacidad mental asombrosa la llevó a resolver complejos cálculos matemáticos mentalmente en cuestión de segundos, estableciendo récords mundiales. Además de su talento innato, Devi promovió activamente la educación matemática y luchó por la igualdad de género en un país donde las mujeres enfrentaban desafíos en la ciencia y la educación. Su legado destaca el poder de la mente humana y la importancia de la igualdad de oportunidades en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
-    "facts": {
-      "yearOfBirth": "1929",
-      "yearOfDeath": "2013",
-      "birthPlace": "Bangalore, India",
-      "mainField": "Matemáticas"
+    "id": "orgulho-e-preconceito",
+    "livro": "Orgulho e Preconceito",
+    "autora": "Jane Austen",
+    "sobreOLivro": "Orgulho e Preconceito é um romance clássico escrito por Jane Austen. Publicado pela primeira vez em 1813, o livro é conhecido por sua perspicácia social, críticas à sociedade da época e pelo desenvolvimento do relacionamento entre Elizabeth Bennet e Mr. Darcy.",
+    "sinopse": "O romance gira em torno de Elizabeth Bennet, uma jovem vivaz e perspicaz, e seu relacionamento com o rico e orgulhoso Mr. Darcy. Em meio a bailes, intrigas sociais e mal-entendidos, Elizabeth e Darcy enfrentam desafios para superar seus preconceitos e compreender o verdadeiro significado do amor.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg", //AJUSTAR ORDEM E LINK
+    "detalhes": {
+      "numeroDePaginas": "382",
+      "preçoMedio": "R$ 32 - R$ 50",
+      "genero": "Romance"
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+    "curiosidade": {
+      "premios": "Por ser uma obra clássica da literatura do século XIX, não recebeu prêmios contemporâneos ou modernos, pois muitos dos prêmios literários conhecidos hoje em dia não existiam na época de sua publicação em 1813. Os prêmios literários modernos começaram a surgir apenas no século XX.",
+      "adaptações": "O livro de Jane Austen foi adaptado para o cinema diversas vezes, sendo o filme de 2005, dirigido por Joe Wright, o mais notável.",
+      "temasPrincipais": "Preconceito Social, Desenvolvimento Pessoal e Amor Verdadeiro"
     }
-  },
+  }, 
+
+  
+
+
+//Preencher os demais
+
+
   {
-    "id": "sofia-kovalevskaya",
-    "name": "Sofia Kovalevskaya",
-    "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
-    "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
-    "facts": {
-      "yearOfBirth": "1850",
-      "yearOfDeath": "1891",
-      "birthPlace": "Moscú, Rusia",
-      "mainField": "Matemáticas"
+    "id": "xxx-xxx",
+    "livro": "Xxxx Xxxx Xxx",
+    "autora": "xxx",
+    "sobreOLivro": "xx.",
+    "sinopse": "Xxx.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg", //AJUSTAR ORDEM E LINK
+    "detalhes": {
+      "numeroDePaginas": "xx",
+      "preçoMedio": "R$ xx - R$ xx",
+      "genero": "xx"
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+    "curiosidade": {
+      "premios": "xxx",
+      "adaptações": "xxx.",
+      "temasPrincipais": "xx"
     }
-  },
+  }, 
   {
-    "id": "yoko-shimomura",
-    "name": "Yoko Shimomura",
-    "shortDescription": "Compositora de música, destacada en la industria de los videojuegos.",
-    "description": "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
-    "facts": {
-      "yearOfBirth": "1967",
-      "birthPlace": "Hyogo, Japón",
-      "mainField": "Composición Musical, Video Juegos"
+    "id": "xxx-xxx",
+    "livro": "Xxxx Xxxx Xxx",
+    "autora": "xxx",
+    "sobreOLivro": "xx.",
+    "sinopse": "Xxx.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg", //AJUSTAR ORDEM E LINK
+    "detalhes": {
+      "numeroDePaginas": "xx",
+      "preçoMedio": "R$ xx - R$ xx",
+      "genero": "xx"
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
+    "curiosidade": {
+      "premios": "xxx",
+      "adaptações": "xxx.",
+      "temasPrincipais": "xx"
     }
-  },
+  }, 
   {
-    "id": "maryam-mirzakhani",
-    "name": "Maryam Mirzakhani",
-    "shortDescription": "Matemática, ganadora del Premio Fields.",
-    "description": "Matemática iraní, hizo historia al convertirse en la primera mujer en ganar la Medalla Fields, el premio más prestigioso en matemáticas. Sus investigaciones en la geometría de superficies y la teoría de las superficies de Riemann han tenido un impacto duradero en la matemática pura. A lo largo de su carrera, Mirzakhani inspiró a muchas mujeres a perseguir carreras en ciencia y matemáticas, derribando las barreras de género. Su enfoque innovador y su capacidad para resolver problemas complejos la convierten en un modelo a seguir para la comunidad científica y en un símbolo de la excelencia matemática.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
-    "facts": {
-      "yearOfBirth": "1977",
-      "yearOfDeath": "2017",
-      "birthPlace": "Teherán, Irán",
-      "mainField": "Matemáticas"
+    "id": "xxx-xxx",
+    "livro": "Xxxx Xxxx Xxx",
+    "autora": "xxx",
+    "sobreOLivro": "xx.",
+    "sinopse": "Xxx.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg", //AJUSTAR ORDEM E LINK
+    "detalhes": {
+      "numeroDePaginas": "xx",
+      "preçoMedio": "R$ xx - R$ xx",
+      "genero": "xx"
     },
-    "extraInfo": {
-      "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
+    "curiosidade": {
+      "premios": "xxx",
+      "adaptações": "xxx.",
+      "temasPrincipais": "xx"
     }
-  },
+  }, 
   {
-    "id": "adele-goldberg",
-    "name": "Adele Goldberg",
-    "shortDescription": "Informática pionera, co-creadora del lenguaje de programación Smalltalk.",
-    "description": "Informática estadounidense reconocida por su influyente trabajo en la investigación y desarrollo de la programación orientada a objetos. Su contribución más destacada es la creación del lenguaje de programación Smalltalk, que revolucionó la forma en que se desarrollan software y sistemas informáticos. Goldberg ha sido una defensora incansable de la usabilidad y la accesibilidad en la informática, asegurando que las aplicaciones informáticas sean más amigables para los usuarios. Su trabajo ha allanado el camino para una programación más intuitiva y eficiente, y su legado perdura en la industria de la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
-    "facts": {
-      "yearOfBirth": "1945",
-      "birthPlace": "Chicago, Estados Unidos",
-      "mainField": "Ciencias de la Computación"
+    "id": "xxx-xxx",
+    "livro": "Xxxx Xxxx Xxx",
+    "autora": "xxx",
+    "sobreOLivro": "xx.",
+    "sinopse": "Xxx.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg", //AJUSTAR ORDEM E LINK
+    "detalhes": {
+      "numeroDePaginas": "xx",
+      "preçoMedio": "R$ xx - R$ xx",
+      "genero": "xx"
     },
-    "extraInfo": {
-      "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
+    "curiosidade": {
+      "premios": "xxx",
+      "adaptações": "xxx.",
+      "temasPrincipais": "xx"
     }
-  },
+  }, 
   {
-    "id": "barbara-liskov",
-    "name": "Barbara Liskov",
-    "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
-    "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
-    "facts": {
-      "yearOfBirth": "1939",
-      "birthPlace": "Los Angeles, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    "id": "xxx-xxx",
+    "livro": "Xxxx Xxxx Xxx",
+    "autora": "xxx",
+    "sobreOLivro": "xx.",
+    "sinopse": "Xxx.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg", //AJUSTAR ORDEM E LINK
+    "detalhes": {
+      "numeroDePaginas": "xx",
+      "preçoMedio": "R$ xx - R$ xx",
+      "genero": "xx"
     },
-    "extraInfo": {
-      "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
+    "curiosidade": {
+      "premios": "xxx",
+      "adaptações": "xxx.",
+      "temasPrincipais": "xx"
     }
-  },
+  }, 
   {
-    "id": "grace-hopper",
-    "name": "Grace Hopper",
-    "shortDescription": "Científica de la computación, creadora del primer compilador.",
-    "description": "Una de las pioneras de la informática, es famosa por su contribución al desarrollo del primer compilador y al lenguaje de programación COBOL. Además, desafió los estereotipos de género en la década de 1940 al unirse a la Marina de los Estados Unidos y convertirse en la primera programadora de la computadora Harvard Mark I. Su legado abarca la creación de conceptos cruciales como la \"depuración de software\" y su influencia en el desarrollo de la informática moderna, estableciendo estándares para la programación de alto nivel y la innovación tecnológica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
-    "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1992",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    "id": "xxx-xxx",
+    "livro": "Xxxx Xxxx Xxx",
+    "autora": "xxx",
+    "sobreOLivro": "xx.",
+    "sinopse": "Xxx.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg", //AJUSTAR ORDEM E LINK
+    "detalhes": {
+      "numeroDePaginas": "xx",
+      "preçoMedio": "R$ xx - R$ xx",
+      "genero": "xx"
     },
-    "extraInfo": {
-      "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
+    "curiosidade": {
+      "premios": "xxx",
+      "adaptações": "xxx.",
+      "temasPrincipais": "xx"
     }
-  },
+  }, 
   {
-    "id": "margaret-hamilton",
-    "name": "Margaret Hamilton",
-    "shortDescription": "Científica de la computación, lideró desarrollo de software para Apollo 11.",
-    "description": "Destacada científica de la computación que desempeñó un papel fundamental en el programa Apollo de la NASA. Fue directora de la División de Ingeniería de Software en el Laboratorio de Instrumentación del MIT, donde desarrolló el concepto de \"ingeniería de software\". Su liderazgo en el desarrollo del software de vuelo para las misiones Apollo fue fundamental para el éxito de la llegada del hombre a la Luna. Hamilton es un ejemplo de cómo la tecnología y la ciencia pueden alcanzar logros extraordinarios cuando se combinan con un enfoque innovador y una visión audaz.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
-    "facts": {
-      "yearOfBirth": "1936",
-      "birthPlace": "Paoli, Indiana, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    "id": "xxx-xxx",
+    "nome": "Xxxx Xxxx Xxx",
+    "livro": "xxx",
+    "sobreOLivro": "xx.",
+    "sinopse": "Xxx.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg", //AJUSTAR ORDEM E LINK
+    "detalhes": {
+      "numeroDePaginas": "xx",
+      "preçoMedio": "R$ xx - R$ xx",
+      "genero": "xx"
     },
-    "extraInfo": {
-      "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
+    "curiosidade": {
+      "premios": "xxx",
+      "adaptações": "xxx.",
+      "temasPrincipais": "xx"
     }
-  },
+  }, 
   {
-    "id": "radia-perlman",
-    "name": "Radia Perlman",
-    "shortDescription": "Ingeniera de redes, inventora del algoritmo Spanning Tree.",
-    "description": "Científica de la computación estadounidense, ha dejado una marca indeleble en el mundo de las redes informáticas y la seguridad. Conocida como \"la madre de Internet\", su invención del algoritmo Spanning Tree Protocol (STP) revolucionó la conectividad de redes y sentó las bases para la infraestructura de Internet moderna. A pesar de operar en un campo dominado por hombres, Perlman ha demostrado que las mujeres pueden liderar avances tecnológicos vitales. Su compromiso con la resiliencia de las redes y la ciberseguridad ha influido en la estabilidad y confiabilidad de la comunicación en línea.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
-    "facts": {
-      "yearOfBirth": "1951",
-      "birthPlace": "Portsmouth, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    "id": "xxx-xxx",
+    "nome": "Xxxx Xxxx Xxx",
+    "livro": "xxx",
+    "sobreOLivro": "xx.",
+    "sinopse": "Xxx.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg", //AJUSTAR ORDEM E LINK
+    "detalhes": {
+      "numeroDePaginas": "xx",
+      "preçoMedio": "R$ xx - R$ xx",
+      "genero": "xx"
     },
-    "extraInfo": {
-      "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
+    "curiosidade": {
+      "premios": "xxx",
+      "adaptações": "xxx.",
+      "temasPrincipais": "xx"
     }
-  },
+  }, 
   {
-    "id": "shafi-goldwasser",
-    "name": "Shafi Goldwasser",
-    "shortDescription": "Científica de la computación, ganadora del Premio Turing.",
-    "description": "Es una destacada criptógrafa y científica de la computación que ha contribuido significativamente a la teoría de la computación y la seguridad de la información. Su trabajo en criptografía de probabilidad y complejidad computacional ha sentado las bases para la seguridad en línea y la privacidad de datos en un mundo cada vez más digitalizado. Goldwasser es un ejemplo de cómo la ciencia de la computación puede abordar desafíos contemporáneos y proteger la información en la era de la información.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
-    "facts": {
-      "yearOfBirth": "1958",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    "id": "xxx-xxx",
+    "livro": "Xxxx Xxxx Xxx",
+    "autora": "xxx",
+    "sobreOLivro": "xx.",
+    "sinopse": "Xxx.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg", //AJUSTAR ORDEM E LINK
+    "detalhes": {
+      "numeroDePaginas": "xx",
+      "preçoMedio": "R$ xx - R$ xx",
+      "genero": "xx"
     },
-    "extraInfo": {
-      "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
+    "curiosidade": {
+      "premios": "xxx",
+      "adaptações": "xxx.",
+      "temasPrincipais": "xx"
     }
-  },
+  }, 
   {
-    "id": "chien-shiung-wu",
-    "name": "Chien-Shiung Wu",
-    "shortDescription": "Física experimental, contribuyó a la física nuclear.",
-    "description": "Física experimental de origen chino, desafiando los prejuicios de género y nacionalidad, realizó experimentos fundamentales en física de partículas y contribuyó significativamente a la comprensión de la desintegración beta. Su famoso experimento \"Wu\" refutó la paridad en la física de partículas, lo que cambió la forma en que los científicos comprenden las fuerzas fundamentales de la naturaleza. Wu demostró que el talento y la perseverancia pueden superar cualquier barrera, y su legado sigue siendo un faro de inspiración para científicas en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
-    "facts": {
-      "yearOfBirth": "1912",
-      "yearOfDeath": "1997",
-      "birthPlace": "Liuhe, Taicang, China",
-      "mainField": "Física"
+    "id": "xxx-xxx",
+    "livro": "Xxxx Xxxx Xxx",
+    "autora": "xxx",
+    "sobreOLivro": "xx.",
+    "sinopse": "Xxx.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg", //AJUSTAR ORDEM E LINK
+    "detalhes": {
+      "numeroDePaginas": "xx",
+      "preçoMedio": "R$ xx - R$ xx",
+      "genero": "xx"
     },
-    "extraInfo": {
-      "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
+    "curiosidade": {
+      "premios": "xxx",
+      "adaptações": "xxx.",
+      "temasPrincipais": "xx"
     }
-  },
+  }, 
   {
-    "id": "hedy-lamarr",
-    "name": "Hedy Lamarr",
-    "shortDescription": "Actriz e inventora, contribuyó al desarrollo de la tecnología de espectro ensanchado.",
-    "description": "Actriz austroamericana y científica, fue una mente brillante en la intersección de la tecnología y el entretenimiento. Junto con el compositor George Antheil, inventó un sistema de comunicación secreta durante la Segunda Guerra Mundial que sentó las bases para la tecnología de espectro ensanchado y la comunicación inalámbrica moderna. Lamarr demostró que las mujeres pueden destacar tanto en el cine como en la ciencia, y su legado como inventora ha sido fundamental para el desarrollo de la tecnología de comunicación inalámbrica que usamos en la actualidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
-    "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "2000",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Actuación, Física"
+    "id": "xxx-xxx",
+    "livro": "Xxxx Xxxx Xxx",
+    "autora": "xxx",
+    "sobreOLivro": "xx.",
+    "sinopse": "Xxx.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg", //AJUSTAR ORDEM E LINK
+    "detalhes": {
+      "numeroDePaginas": "xx",
+      "preçoMedio": "R$ xx - R$ xx",
+      "genero": "xx"
     },
-    "extraInfo": {
-      "imageSource": "https://www.sparkfun.com/news/6147"
+    "curiosidade": {
+      "premios": "xxx",
+      "adaptações": "xxx.",
+      "temasPrincipais": "xx"
     }
-  },
+  }, 
   {
-    "id": "maria-goeppert-mayer",
-    "name": "Maria Goeppert Mayer",
-    "shortDescription": "Física teórica, ganadora del Premio Nobel de Física.",
-    "description": "Física teórica alemana-estadounidense, dejó una profunda huella en la física nuclear y la mecánica cuántica. Fue la segunda mujer en recibir el Premio Nobel de Física y su trabajo pionero en la estructura de capas nucleares revolucionó nuestra comprensión de los núcleos atómicos. A pesar de las barreras de género en la academia, su dedicación y talento la llevaron a contribuir significativamente a la teoría nuclear, abriendo el camino para futuras investigadoras en un campo dominado por hombres. Maria Goeppert Mayer es un ejemplo inspirador de excelencia científica y perseverancia en la búsqueda del conocimiento.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
-    "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1972",
-      "birthPlace": "Kattowitz, Alemania",
-      "mainField": "Física"
+    "id": "xxx-xxx",
+    "livro": "Xxxx Xxxx Xxx",
+    "autora": "xxx",
+    "sobreOLivro": "xx.",
+    "sinopse": "Xxx.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg", //AJUSTAR ORDEM E LINK
+    "detalhes": {
+      "numeroDePaginas": "xx",
+      "preçoMedio": "R$ xx - R$ xx",
+      "genero": "xx"
     },
-    "extraInfo": {
-      "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
+    "curiosidade": {
+      "premios": "xxx",
+      "adaptações": "xxx.",
+      "temasPrincipais": "xx"
     }
-  },
+  }, 
   {
-    "id": "lise-meitner",
-    "name": "Lise Meitner",
-    "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
-    "description": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
-    "facts": {
-      "yearOfBirth": "1878",
-      "yearOfDeath": "1968",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Física"
+    "id": "xxx-xxx",
+    "livro": "Xxxx Xxxx Xxx",
+    "autora": "xxx",
+    "sobreOLivro": "xx.",
+    "sinopse": "Xxx.",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg", //AJUSTAR ORDEM E LINK
+    "detalhes": {
+      "numeroDePaginas": "xx",
+      "preçoMedio": "R$ xx - R$ xx",
+      "genero": "xx"
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
+    "curiosidade": {
+      "premios": "xxx",
+      "adaptações": "xxx.",
+      "temasPrincipais": "xx"
     }
-  },
-  {
-    "id": "sau-lan-wu",
-    "name": "Sau Lan Wu",
-    "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
-    "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
-    "facts": {
-      "yearOfBirth": "1940",
-      "birthPlace": "Hong Kong, China",
-      "mainField": "Física de Partículas"
-    },
-    "extraInfo": {
-      "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
-    }
-  },
-  {
-    "id": "jocelyn-bell-burnell",
-    "name": "Jocelyn Bell Burnell",
-    "shortDescription": "Astrónoma y astrofísica, co-descubridora de los púlsares.",
-    "description": "Astrofísica británica, es una figura extraordinaria en la ciencia. Durante su doctorado, hizo un descubrimiento revolucionario al detectar los primeros púlsares, estrellas de neutrones altamente magnetizadas que emiten pulsos regulares de radiación. A pesar de que su asesor recibió el Premio Nobel por este descubrimiento, Bell Burnell se ha convertido en un símbolo de perseverancia y contribución de las mujeres a la astronomía. Su carrera distinguida y su activismo en favor de la diversidad de género en la ciencia han inspirado a generaciones futuras de científicas. Jocelyn Bell Burnell es un ejemplo de valentía y excelencia científica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
-    "facts": {
-      "yearOfBirth": "1943",
-      "birthPlace": "Belfast, Reino Unido",
-      "mainField": "Astronomía, Astrofísica"
-    },
-    "extraInfo": {
-      "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
-    }
-  },
-  {
-    "id": "dorothy-crowfoot-hodgkin",
-    "name": "Dorothy Crowfoot Hodgkin",
-    "shortDescription": "Química, ganadora del Premio Nobel de Química.",
-    "description": "Química británica, es una figura icónica en la ciencia que superó las barreras de género de su época. Su trabajo revolucionario en la cristalografía de rayos X permitió determinar la estructura de importantes biomoléculas, como la penicilina, la vitamina B12 y la insulina. Fue galardonada con el Premio Nobel de Química en 1964, siendo la tercera mujer en recibir este prestigioso reconocimiento. Hodgkin no solo fue una científica excepcional, sino también una defensora de la igualdad de género en la ciencia, allanando el camino para futuras generaciones de científicas y dejando un legado duradero en la investigación y la equidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
-    "facts": {
-      "yearOfBirth": "1910",
-      "yearOfDeath": "1994",
-      "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
-      "mainField": "Química"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
-    }
-  },
-  {
-    "id": "marie-curie",
-    "name": "Marie Curie",
-    "shortDescription": "Física y química, ganadora de dos Premios Nobel.",
-    "description": "física y química de origen polaco y nacionalizada francesa, es una de las figuras más icónicas en la historia de la ciencia. Ganadora de dos premios Nobel (Física en 1903 y Química en 1911), Curie realizó investigaciones fundamentales sobre la radiactividad y el descubrimiento de los elementos radio y polonio. Su dedicación y valentía en la investigación científica, a pesar de los desafíos de la discriminación de género y los riesgos de la radiación, la convierten en un modelo a seguir para científicas de todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
-    "facts": {
-      "yearOfBirth": "1867",
-      "yearOfDeath": "1934",
-      "birthPlace": "Varsovia, Polonia",
-      "mainField": "Física y Química"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
-    }
-  },
-  {
-    "id": "marjory-stephenson",
-    "name": "Marjory Stephenson",
-    "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
-    "description": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
-    "facts": {
-      "yearOfBirth": "1885",
-      "yearOfDeath": "1948",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Microbiología, Bioquímica"
-    },
-    "extraInfo": {
-      "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
-    }
-  },
+  }, 
+
+
+
+
+
+
+
+
+
   {
     "id": "rosalind-franklin",
     "name": "Rosalind Franklin",
