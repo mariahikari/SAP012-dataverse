@@ -1,11 +1,46 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Dataverse</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <script src="main.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>AUTORAS EM FOCO</title> <!-- //Define o título da página -->
+  <link rel="stylesheet" href="style.css" /> <!-- //Vincula uma estilo externo chamado "style.css" à página -->
+</head>
+
+<body>
+  <header>
+    <h1>AUTORAS EM FOCO</h1>
+    <p>Conecte-se e celebre histórias escritas por mulheres extraordinárias</p>
+  </header>
+
+  <main>
+    <h2>Personalize sua busca:</h2>
+    <label for="filtroGenero">Gênero:</label>
+    <select id="filtroGenero" name="genero" data-testid="selecionar-filtro">
+      <option value="todos">Selecionar Todos</option>
+      <option value="biografia">Biografia</option>
+      <option value="edfinanceira">Educação Financeira</option>
+      <option value="feminismo">Feminismo</option>
+      <option value="ficcao">Ficção</option>
+      <option value="parentalidade">Parentalidade</option>
+      <option value="romance">Romance</option>
+      <option value="terror">Terror</option>
+    </select>
+
+    <label for="ordenarPor">Ordenar por:</label>
+    <select id="ordenarPor" name="ordem" data-testid="selecionar-ordem">
+      <option value="AB titulo">A-Z Título</option>
+      <option value="AB titulo">Z-A Título</option>
+    </select>
+
+  </main>
+
+
+  <footer> <!-- //Seção de rodapé -->
+    <p>Desenvolvido por: Marcele Reis e Maria Hikari</p> <!-- //Nome das Desenvolvedoras -->
+  </footer>
+
+  <script src="main.js" type="module"></script>
+</body>
+
 </html>
