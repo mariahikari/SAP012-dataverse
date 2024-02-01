@@ -8,7 +8,7 @@ export default [
     "imageUrl": "https://github.com/Laboratoria/SAP012-dataverse/assets/152895146/4868aa72-4f67-46d3-9dc5-e0cdb1b6360e",
     "detalhes": {
       "numeroDePaginas": "368",
-      "preçoMedio": "$$", //Ao invés do valor podemos colocar só a classificação por $, $$, $$$ ou $$$$
+      "preçoMedio": "$$", 
       "genero": "Ficção"
     },
     "curiosidade": {
