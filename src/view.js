@@ -8,7 +8,7 @@ export const renderItems = (data) => {
     cards.innerHTML +=`
     <dl itemscope itemtype="autorasEmFoco">
       <dt><img src=${item.imageUrl} alt="Capa do Livro" /></dt>
-      <dd itemprop="livro">${item.livro}</dd>
+      <dd itemprop="livro" class="livro_name">${item.livro}</dd>
       <dd itemprop="autora">${item.autora}</dd>
       <dd itemprop="numeroDePaginas">Páginas: ${item.detalhes.numeroDePaginas}</dd>
       <dd itemprop="preco">Preço: ${item.detalhes.preçoMedio}</dd>

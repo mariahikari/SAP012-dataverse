@@ -1,0 +1,23 @@
+
+.container img {
+    max-width:200px;
+    width: auto;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-color: #DBC980;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 1rem 1rem;
+
+}
+
+.livro_name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 0px;
+}

@@ -44,7 +44,7 @@ export const data = [
     "autora": "Suzanne Collins",
     "sobreOLivro": "Jogos Vorazes é o primeiro livro da trilogia homônima escrita por Suzanne Collins. Publicado em 2008, o livro mistura elementos de ficção científica, distopia e ação, criando um mundo pós-apocalíptico intrigante e repleto de suspense.",
     "sinopse": "O enredo se passa em Panem, uma nação dividida em doze distritos e governada pela Capital. Para punir os distritos por uma revolta passada, a Capital institui os Jogos Vorazes, um evento anual em que um garoto e uma garota de cada distrito são escolhidos para participar de uma luta até a morte transmitida para todo o país. A protagonista, Katniss Everdeen, uma jovem do Distrito 12, se voluntaria para os Jogos no lugar de sua irmã, Prim. Ao lado de Peeta Mellark, outro tributo do Distrito 12, Katniss enfrenta desafios mortais enquanto luta pela sua sobrevivência.",
-    "imageUrl": "https://github.com/Laboratoria/SAP012-dataverse/assets/152895146/b0d6aac0-2e60-4cae-9a39-ad9fffffd827)",
+    "imageUrl": "https://github.com/Laboratoria/SAP012-dataverse/assets/147837843/a2e3636c-a01f-4d8b-a74b-3fcc3d48b140",
     "detalhes": {
       "numeroDePaginas": "400",
       "preçoMedio": "$$",
