@@ -10,8 +10,8 @@ export const renderItems = (data) => {
       <dt><img src=${item.imageUrl} alt="Capa do Livro" /></dt>
       <dd itemprop="livro">${item.livro}</dd>
       <dd itemprop="autora">${item.autora}</dd>
-      <dd itemprop="numeroDePaginas">${item.numeroDePaginas}</dd>
-      <dd itemprop="preco">${item.preçoMedio}</dd>
+      <dd itemprop="numeroDePaginas">Páginas: ${item.detalhes.numeroDePaginas}</dd>
+      <dd itemprop="preco">Preço: ${item.detalhes.preçoMedio}</dd>
       <button class='sinopseButton'><dd itemprop="sinopse">"Sinopse"</dd></button>
     </dl>
     `;
