@@ -2,13 +2,13 @@ export default [
   {
     "id": "o-conto-de-aia",
     "livro": "O Conto de Aia",
-    "Autora": "Margaret Atwood",
+    "autora": "Margaret Atwood",
     "sobreOLivro": "O Conto da Aia foi escrito por Margaret Atwood e publicado pela primeira vez em 1985, o livro rapidamente se tornou um clássico da literatura contemporânea e tem ganhado ainda mais relevância ao longo dos anos, especialmente devido às suas ressonâncias com questões sociais e políticas.",
     "sinopse": "A narrativa se passa em um futuro próximo, em uma sociedade totalitária chamada Gilead, que foi formada após uma revolução religiosa que derrubou o governo anterior nos Estados Unidos. Em Gilead, as mulheres são fortemente oprimidas e segregadas em papéis específicos. A protagonista, conhecida como Defred (De Of-Fred), é uma aia, uma mulher designada para procriar com o Comandante e sua esposa, uma prática destinada a combater a diminuição da fertilidade na sociedade.",
     "imageUrl": "https://github.com/Laboratoria/SAP012-dataverse/assets/152895146/4868aa72-4f67-46d3-9dc5-e0cdb1b6360e",
     "detalhes": {
       "numeroDePaginas": "368",
-      "preçoMedio": "R$ 45 - R$ 70", //Ao invés do valor podemos colocar só a classificação por $, $$, $$$ ou $$$$
+      "preçoMedio": "$$", //Ao invés do valor podemos colocar só a classificação por $, $$, $$$ ou $$$$
       "genero": "Ficção"
     },
     "curiosidade": {
@@ -26,7 +26,7 @@ export default [
     "imageUrl": "https://github.com/Laboratoria/SAP012-dataverse/assets/152895146/59b8061e-d2b0-49c4-b7a9-6c7d4eeb40db",
     "detalhes": {
       "numeroDePaginas": "264",
-      "preçoMedio": "R$ 38 - R$ 50",
+      "preçoMedio": "$$",
       "genero": "Ficção"
     },
     "curiosidade": {
@@ -44,7 +44,7 @@ export default [
     "imageUrl": "https://github.com/Laboratoria/SAP012-dataverse/assets/152895146/b0d6aac0-2e60-4cae-9a39-ad9fffffd827)",
     "detalhes": {
       "numeroDePaginas": "400",
-      "preçoMedio": "R$ 45 - R$ 50",
+      "preçoMedio": "$$",
       "genero": "Ficção"
     },
     "curiosidade": {
@@ -54,7 +54,7 @@ export default [
     }
   },
   {
-    "id": "para-todos-os-garotos-que-já-amei",
+    "id": "para-todos-os-garotos-que-ja-amei",
     "livro": "Para Todos Os Garotos Que Já Amei",
     "autora": "Jenny Han",
     "sobreOLivro": "Para Todos os Garotos que Já Amei é um romance jovem escrito por Jenny Han. O livro foi publicado em 2014 e rapidamente se tornou um sucesso, gerando uma trilogia e uma adaptação cinematográfica pela Netflix.",
@@ -62,7 +62,7 @@ export default [
     "imageUrl": "https://github.com/Laboratoria/SAP012-dataverse/assets/152895146/b54c3209-29c8-472a-9904-4ab9d5acb80f",
     "detalhes": {
       "numeroDePaginas": "320",
-      "preçoMedio": "R$ 40 - R$ 45",
+      "preçoMedio": "$$",
       "genero": "Ficção"
     },
     "curiosidade": {
@@ -80,7 +80,7 @@ export default [
     "imageUrl": "https://github.com/Laboratoria/SAP012-dataverse/assets/152895146/638e923d-a585-41a4-804f-c6c37656462e",
     "detalhes": {
       "numeroDePaginas": "382",
-      "preçoMedio": "R$ 32 - R$ 50",
+      "preçoMedio": "$$",
       "genero": "Romance"
     },
     "curiosidade": {
@@ -98,7 +98,7 @@ export default [
     "imageUrl": "https://github.com/Laboratoria/SAP012-dataverse/assets/152895146/a74b27af-6dd7-4aba-bdbe-ba2d212e4020",
     "detalhes": {
       "numeroDePaginas": "320",
-      "preçoMedio": "R$ 45 - R$ 50",
+      "preçoMedio": "$$",
       "genero": "Romance"
     },
     "curiosidade": {
@@ -116,7 +116,7 @@ export default [
     "imageUrl": "https://github.com/Laboratoria/SAP012-dataverse/assets/152895146/4b82c5df-d271-4f3b-ba8f-aefadadda712",
     "detalhes": {
       "numeroDePaginas": "752",
-      "preçoMedio": "R$ 75 - R$ 80",
+      "preçoMedio": "$$$",
       "genero": "Romance"
     },
     "curiosidade": {
@@ -134,7 +134,7 @@ export default [
     "imageUrl": "https://github.com/Laboratoria/SAP012-dataverse/assets/152895146/94facfd2-907d-4577-a2f0-e7a1dd5fc193",
     "detalhes": {
       "numeroDePaginas": "288",
-      "preçoMedio": "R$ 20 - R$ 25",
+      "preçoMedio": "$",
       "genero": "Romance"
     },
     "curiosidade": {
@@ -152,7 +152,7 @@ export default [
     "imageUrl": "https://github.com/Laboratoria/SAP012-dataverse/assets/152895146/36058de2-d3a2-4b1c-b3f8-f29580531237",
     "detalhes": {
       "numeroDePaginas": "480",
-      "preçoMedio": "R$ 25 - R$ 30",
+      "preçoMedio": "$",
       "genero": "Romance"
     },
     "curiosidade": {
@@ -170,7 +170,7 @@ export default [
     "imageUrl": "https://github.com/Laboratoria/SAP012-dataverse/assets/152895146/d4445780-9f59-4cae-9d86-d3692e45964b",
     "detalhes": {
       "numeroDePaginas": "256",
-      "preçoMedio": "R$ 30 - R$ 50",
+      "preçoMedio": "$$",
       "genero": "Terror"
     },
     "curiosidade": {
@@ -188,7 +188,7 @@ export default [
     "imageUrl": "https://github.com/Laboratoria/SAP012-dataverse/assets/152895146/a90d741e-113c-4f95-90f3-e30ddd6cf62d",
     "detalhes": {
       "numeroDePaginas": "152",
-      "preçoMedio": "R$ 45 - R$ 50",
+      "preçoMedio": "$$",
       "genero": "Terror"
     },
     "curiosidade": {
@@ -206,7 +206,7 @@ export default [
     "imageUrl": "https://github.com/Laboratoria/SAP012-dataverse/assets/152895146/400b8139-9c4d-48af-afd2-facdcc818b85",
     "detalhes": {
       "numeroDePaginas": "288",
-      "preçoMedio": "R$ 40 - R$ 50",
+      "preçoMedio": "$$",
       "genero": "Terror, Romance"
     },
     "curiosidade": {
@@ -224,7 +224,7 @@ export default [
     "imageUrl": "https://github.com/Laboratoria/SAP012-dataverse/assets/152895146/4bb2b06b-7f24-4d41-96f2-8efabf990d8a",
     "detalhes": {
       "numeroDePaginas": "176",
-      "preçoMedio": "R$ 35 - R$ 45",
+      "preçoMedio": "$$",
       "genero": "Educação Financeira"
     },
     "curiosidade": {
@@ -242,7 +242,7 @@ export default [
     "imageUrl": "https://github.com/Laboratoria/SAP012-dataverse/assets/152895146/982abfc0-48d9-452f-a18f-9a18f00495d3",
     "detalhes": {
       "numeroDePaginas": "216",
-      "preçoMedio": "R$ 20 - R$ 25",
+      "preçoMedio": "$",
       "genero": "Educação Financeira"
     },
     "curiosidade": {
@@ -260,7 +260,7 @@ export default [
     "imageUrl": "https://github.com/Laboratoria/SAP012-dataverse/assets/152895146/3006591e-e015-40d0-baca-b45a88613521",
     "detalhes": {
       "numeroDePaginas": "224",
-      "preçoMedio": "R$ 15 - R$ 20",
+      "preçoMedio": "$",
       "genero": "Biografia"
     },
     "curiosidade": {
@@ -278,7 +278,7 @@ export default [
     "imageUrl": "https://github.com/Laboratoria/SAP012-dataverse/assets/152895146/377454f7-7200-442b-905b-e215538e8cfc",
     "detalhes": {
       "numeroDePaginas": "464",
-      "preçoMedio": "R$ 35 - R$ 45",
+      "preçoMedio": "$$",
       "genero": "Biografia"
     },
     "curiosidade": {
@@ -296,7 +296,7 @@ export default [
     "imageUrl": "https://github.com/Laboratoria/SAP012-dataverse/assets/152895146/8cb29545-aced-4f5d-86ea-6d7187362bd8",
     "detalhes": {
       "numeroDePaginas": "376",
-      "preçoMedio": "R$ 60 - R$ 70",
+      "preçoMedio": "$$",
       "genero": "Biografia"
     },
     "curiosidade": {
@@ -314,7 +314,7 @@ export default [
     "imageUrl": "https://github.com/Laboratoria/SAP012-dataverse/assets/152895146/53e1cec0-5ba8-4d6e-904b-9bba0eb32a4c",
     "detalhes": {
       "numeroDePaginas": "216",
-      "preçoMedio": "R$ 40 - R$ 50",
+      "preçoMedio": "$$",
       "genero": "Biografia"
     },
     "curiosidade": {
@@ -332,7 +332,7 @@ export default [
     "imageUrl": "https://github.com/Laboratoria/SAP012-dataverse/assets/152895146/6e746b55-b215-46e1-86fa-7f1a656289ad",
     "detalhes": {
       "numeroDePaginas": "272",
-      "preçoMedio": "R$ 40 - R$ 50",
+      "preçoMedio": "$$",
       "genero": "Biografia, Feminismo"
     },
     "curiosidade": {
@@ -350,7 +350,7 @@ export default [
     "imageUrl": "https://github.com/Laboratoria/SAP012-dataverse/assets/152895146/238fbe13-de62-44b4-a2ba-0b985cbc2a00",
     "detalhes": {
       "numeroDePaginas": "936",
-      "preçoMedio": "R$ 115 - R$ 130",
+      "preçoMedio": "$$$",
       "genero": "Feminismo"
     },
     "curiosidade": {
@@ -368,7 +368,7 @@ export default [
     "imageUrl": "https://github.com/Laboratoria/SAP012-dataverse/assets/152895146/f8f80a9a-6fad-499c-be22-2b92afdb4523",
     "detalhes": {
       "numeroDePaginas": "320",
-      "preçoMedio": "R$ 20 - R$ 30",
+      "preçoMedio": "$",
       "genero": "Feminismo"
     },
     "curiosidade": {
@@ -386,7 +386,7 @@ export default [
     "imageUrl": "https://github.com/Laboratoria/SAP012-dataverse/assets/152895146/2dc8a672-ecbf-4a65-8b78-2cd456c603ab",
     "detalhes": {
       "numeroDePaginas": "64",
-      "preçoMedio": "R$ 35 - R$ 40",
+      "preçoMedio": "$$",
       "genero": "Feminismo"
     },
     "curiosidade": {
@@ -404,7 +404,7 @@ export default [
     "imageUrl": "https://github.com/Laboratoria/SAP012-dataverse/assets/152895146/76c189c8-62e8-4c0f-93cf-c811988af88a",
     "detalhes": {
       "numeroDePaginas": "208",
-      "preçoMedio": "R$ 30 - R$ 40",
+      "preçoMedio": "$$",
       "genero": "Feminismo"
     },
     "curiosidade": {
@@ -422,7 +422,7 @@ export default [
     "imageUrl": "https://github.com/Laboratoria/SAP012-dataverse/assets/152895146/fdb939f2-9496-45eb-89a1-a1ff31d7187c",
     "detalhes": {
       "numeroDePaginas": "272",
-      "preçoMedio": "R$ 40 - R$ 55",
+      "preçoMedio": "$$",
       "genero": "Parentalidade"
     },
     "curiosidade": {
@@ -440,7 +440,7 @@ export default [
     "imageUrl": "https://github.com/Laboratoria/SAP012-dataverse/assets/152895146/69638c77-ecf7-402e-aaea-7cf1d8829c78",
     "detalhes": {
       "numeroDePaginas": "340",
-      "preçoMedio": "R$ 75 - R$ 85",
+      "preçoMedio": "$$$",
       "genero": "Parentalidade"
     },
     "curiosidade": {
@@ -458,7 +458,7 @@ export default [
     "imageUrl": "https://github.com/Laboratoria/SAP012-dataverse/assets/152895146/966ea648-0e0c-4639-899d-7709d1e33af4",
     "detalhes": {
       "numeroDePaginas": "208",
-      "preçoMedio": "R$ 40 - R$ 45",
+      "preçoMedio": "$$",
       "genero": "Romance, Realidade Brasileira"
     },
     "curiosidade": {
@@ -476,7 +476,7 @@ export default [
     "imageUrl": "https://github.com/Laboratoria/SAP012-dataverse/assets/152895146/149c34c9-2526-4942-9f53-16ca120c51ec",
     "detalhes": {
       "numeroDePaginas": "200",
-      "preçoMedio": "R$ 45 - R$ 55",
+      "preçoMedio": "$$",
       "genero": "Biografia, Realidade Brasileira"
     },
     "curiosidade": {
