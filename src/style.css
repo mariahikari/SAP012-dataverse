@@ -3,15 +3,14 @@
     max-width:200px;
     width: auto;
     height: auto;
+    margin-bottom: 10px;
 }
 
 .container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border-color: #DBC980;
     border-radius: 10px;
-    border: 1px solid;
     padding: 1rem 1rem;
 
 }
@@ -19,5 +18,17 @@
 .livro_name {
     font-weight: bold;
     font-size: 18px;
-    margin-left: 0px;
+}
+
+dl {
+    background-color:  #DBC980;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+dd {
+    font-size: 13px;
+    margin-bottom: 10px;
+    margin: 0px;
 }
