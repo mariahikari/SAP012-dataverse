@@ -20,7 +20,7 @@
     font-weight: bold;
     font-size: 18px; 
     text-align: center; /* Incluido para centralizar o texto dentro do card */
-    margin-top: 10px;
+    margin-top: 10px; 
 }
 
 .autora_name { /*Classe adicionada para o nome da autora se destacar das demais infos*/
