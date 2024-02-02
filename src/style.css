@@ -1,9 +1,10 @@
 
 .container img {
-    max-width:200px;
-    width: auto;
-    height: auto;
+    width: 200px;/* Ajustado para todas as imagens terem o mesmo tamanho */
+    height: 300px;/* Ajustado para todas as imagens terem o mesmo tamanho */
     margin-bottom: 10px;
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    display: block; /* Remove espaçamento extra da imagem */
 }
 
 .container {
@@ -17,7 +18,15 @@
 
 .livro_name {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 18px; 
+    text-align: center; /* Incluido para centralizar o texto dentro do card */
+}
+
+.autora_name { /*Classe adicionada para o nome da autora se destacar das demais infos*/
+    font-weight: bold;
+    font-size: 13px; 
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 dl {
@@ -25,10 +34,17 @@ dl {
     margin: 10px;
     padding: 20px;
     border-radius: 10px;
+    max-width: 300px;
+    flex: 1; /*incluido para todos os cards terem o mesmo tamanho*/
 }
 
 dd {
     font-size: 13px;
     margin-bottom: 10px;
     margin: 0px;
+}
+
+.verMais { /*Classe adicionada separar o Ver Mais das informações anteriores*/
+    font-size: 13px; 
+    margin-top: 8px;
 }
