@@ -239,7 +239,7 @@ export default [
     "autora": "Patricia Lages",
     "sobreOLivro": "Bolsa Blindada é um livro que aborda o universo das finanças de uma perspectiva feminina.",
     "sinopse": "Patricia Lages apresenta estratégias para que as mulheres possam lidar com as finanças de maneira independente e segura. A obra oferece conselhos práticos sobre como organizar o orçamento, economizar, investir e se proteger financeiramente.",
-    "imageUrl": "https://github.com/Laboratoria/SAP012-dataverse/assets/152895146/982abfc0-48d9-452f-a18f-9a18f00495d3",
+    "imageUrl": "https://github.com/Laboratoria/SAP012-dataverse/assets/147837843/ba313796-e5ec-4932-8f70-548298b3a874",
     "detalhes": {
       "numeroDePaginas": "216",
       "preçoMedio": "$",
