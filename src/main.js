@@ -18,11 +18,9 @@ cardsLivros.appendChild(renderItems(data));
 
 filtroGenero.addEventListener('change', () => {
   const generoSelecionado = filtroGenero.value;
-  console.log('Selected Genre:', generoSelecionado);
-  
+
   const dadosFiltrados = filterData(data, 'genero', generoSelecionado);
-  console.log('Filtered Data:', dadosFiltrados);
-  
+
   cardsLivros.innerHTML = '';
   cardsLivros.appendChild(renderItems(dadosFiltrados));
 });
