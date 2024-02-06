@@ -17,16 +17,6 @@ const renderizarLivros = (dados) => {
   cardsLivros.appendChild(renderItems(dados)); // Renderiza os livros
 };
 
-// Função para ordenar os dados com base na ordem especificada
-const ordenarDados = (dados, ordem) => {
-  if (ordem === 'asc') {
-    return dados.slice().sort((a, b) => a.livro.localeCompare(b.livro)); // Ordenação ascendente por título do livro
-  } else if (ordem === 'desc') {
-    return dados.slice().sort((a, b) => b.livro.localeCompare(a.livro)); // Ordenação descendente por título do livro
-  } else {
-    return dados; // Retorna os dados inalterados se a ordem não for especificada corretamente
-  }
-};
 
 // Função para filtrar e ordenar os livros com base nos filtros e na ordem selecionada
 const filtrarEOrdenarLivros = () => {
