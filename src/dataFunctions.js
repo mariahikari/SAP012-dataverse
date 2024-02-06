@@ -8,8 +8,6 @@ export const filterData = (data, filterBy, value) => {
   return filteredData;
 };
 
-
-
-//export const sortData = (data, sortBy, sortOrder) => {
+export const sortData = (data, sortBy, sortOrder) => {
 // return [];
 //};
