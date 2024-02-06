@@ -1,8 +1,5 @@
-// main.js
-
-//import { filterData, sortData } from './dataFunctions.js';
+import { filterData, sortData } from './dataFunctions.js';
 import { renderItems } from './view.js';
-
 import data from './data/dataset.js';
 
 const filtroGenero = document.querySelector('#filtroGenero');
@@ -17,7 +14,6 @@ const renderizarLivros = (dados) => {
   cardsLivros.appendChild(renderItems(dados)); // Renderiza os livros
 };
 
-
 // Função para filtrar e ordenar os livros com base nos filtros e na ordem selecionada
 const filtrarEOrdenarLivros = () => {
   const generoSelecionado = filtroGenero.value;
@@ -25,16 +21,20 @@ const filtrarEOrdenarLivros = () => {
   const ordenacaoSelecionada = ordenarPor.value;
 
   // Filtrar os dados com base no gênero e no preço
-  let dadosFiltrados = data.filter(item => {
-    const generoCorrespondente = generoSelecionado === 'todos' || item.detalhes.genero.toLowerCase() === generoSelecionado.toLowerCase();
-    const precoCorrespondente = precoSelecionado === 'todos' || item.detalhes.preçoMedio.toLowerCase() === precoSelecionado.toLowerCase();
-    return generoCorrespondente && precoCorrespondente;
-  });
+  let dadosFiltrados = data;
+  if (generoSelecionado !== 'todos') {
+    dadosFiltrados = filterData(data, 'genero', generoSelecionado);
+  }
+
+  if (precoSelecionado !== 'todos') {
+    dadosFiltrados = filterData(dadosFiltrados, 'preçoMedio', precoSelecionado);
+  }
 
   // Ordenar os dados
-  dadosFiltrados = ordenarDados(dadosFiltrados, ordenacaoSelecionada);
+  dadosFiltrados = sortData(dadosFiltrados, 'livro', ordenacaoSelecionada);
 
   renderizarLivros(dadosFiltrados);
+
 };
 
 // Renderizar todos os livros inicialmente
