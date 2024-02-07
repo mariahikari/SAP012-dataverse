@@ -1,11 +1,12 @@
+// Esta função recebe um parâmetro data, que representa os dados a serem renderizados.
 export const renderItems = (data) => {
 
-  const cards = document.createElement('ul');
-  cards.classList.add('container');
-  // Aquí comienza tu código y puedes retornar lo que tu necesites
+  const cards = document.createElement('ul'); // Cria um elemento <ul> (lista não ordenada) para armazenar os itens renderizados.
+  cards.classList.add('container'); // Adiciona a classe 'container' ao elemento <ul>.
 
-  data.forEach((item) => {
-    cards.innerHTML += `
+  data.forEach((item) => { // Início do loop de iteração sobre os dados para renderização de cada item.
+    // Adiciona o HTML de cada item ao conteúdo do elemento <ul> e adiciona dinamicamente os dados de cada item.
+    cards.innerHTML += ` 
     <dl itemscope itemtype="autorasEmFoco">
       <dt><img src=${item.imageUrl} alt="Capa do Livro" /></dt>
       <dd itemprop="livro" class="livro_name">${item.livro}</dd>
@@ -25,5 +26,5 @@ export const renderItems = (data) => {
     </dl>
     `;
   })
-  return cards;
+  return cards; // Retorna o elemento <ul> (cards) contendo todos os itens renderizados.
 };

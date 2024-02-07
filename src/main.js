@@ -2,6 +2,7 @@ import { filterData, sortData } from './dataFunctions.js';
 import { renderItems } from './view.js';
 import data from './data/dataset.js';
 
+// Seleciona os elementos HTML correspondentes aos filtros e ao contêiner dos cards
 const filtroGenero = document.querySelector('#filtroGenero');
 const filtroPreco = document.querySelector('#filtroPreco');
 const ordenarPor = document.querySelector('#ordenarPor');
@@ -16,6 +17,7 @@ const renderizarLivros = (dados) => {
 
 // Função para filtrar e ordenar os livros com base nos filtros e na ordem selecionada
 const filtrarEOrdenarLivros = () => {
+  // Obtém os valores selecionados dos filtros
   const generoSelecionado = filtroGenero.value;
   const precoSelecionado = filtroPreco.value;
   const ordenacaoSelecionada = ordenarPor.value;
@@ -30,27 +32,25 @@ const filtrarEOrdenarLivros = () => {
     dadosFiltrados = filterData(dadosFiltrados, 'preçoMedio', precoSelecionado);
   }
 
-  // Ordenar os dados
+  // Ordenar os dados de acordo com a opção selecionada
   dadosFiltrados = sortData(dadosFiltrados, 'livro', ordenacaoSelecionada);
 
-  renderizarLivros(dadosFiltrados);
+  renderizarLivros(dadosFiltrados); // Renderiza os livros filtrados e ordenados
 
 };
 
-// Renderizar todos os livros inicialmente
-renderizarLivros(data);
 
-// Event listener para o filtro de gênero
-filtroGenero.addEventListener('change', filtrarEOrdenarLivros);
+renderizarLivros(data); // Renderiza todos os livros inicialmente
 
-// Event listener para o filtro de preço
-filtroPreco.addEventListener('change', filtrarEOrdenarLivros);
+filtroGenero.addEventListener('change', filtrarEOrdenarLivros); // Event listener para o filtro de gênero
 
-// Event listener para o seletor de ordenação
-ordenarPor.addEventListener('change', filtrarEOrdenarLivros);
+filtroPreco.addEventListener('change', filtrarEOrdenarLivros); // Event listener para o filtro de preço
+
+ordenarPor.addEventListener('change', filtrarEOrdenarLivros); // Event listener para o seletor de ordenação
 
 // Event listener para o botão de reset
 resetButton.addEventListener('click', () => {
+  // Define os valores padrão para os filtros
   filtroGenero.value = 'todos';
   filtroPreco.value = 'todos';
   ordenarPor.value = 'asc'; // Define a ordem padrão para ascendente ao redefinir os filtros
