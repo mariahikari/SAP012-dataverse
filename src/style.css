@@ -8,6 +8,7 @@ h1 {
     color: #704E4E;
     font-weight: bold;
     font-size: 50px; 
+    margin-bottom: 0px;
 }
 
 p{
@@ -16,6 +17,9 @@ p{
     font-size: 18px; 
     text-align: center;
     color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0px; /* nao é certo usar 0px. procurar depois como substituir isso */
 }
 
 main{
@@ -28,7 +32,7 @@ main{
     display: flex;
     justify-content: space-between; 
     align-items: center;
-    margin-bottom: 10px; 
+    margin-left: 20px;
   }
   
   .filtro {
@@ -42,6 +46,13 @@ main{
     display: block; 
     margin: 10px auto; 
     margin-top: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px; /* ajustar isso depois. limpar mais o código */
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 0px;
     }
 
 .container img {
