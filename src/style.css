@@ -1,4 +1,49 @@
 
+body, h1, #root{
+    background-color: #EFDDE1;
+}
+
+h1 {
+    text-align: center;
+    color: #704E4E;
+    font-weight: bold;
+    font-size: 50px; 
+}
+
+p{
+    background-color:  #DBC980;
+    font-weight: bold;
+    font-size: 18px; 
+    text-align: center;
+    color: white;
+}
+
+main{
+    background-color: #92C195;
+    font-size: 12px; 
+    color: white;
+}
+  
+  .search-container, .filtros-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-bottom: 10px; 
+  }
+  
+  .filtro {
+    flex: 1; 
+    margin-right: 10px; 
+    
+  }
+  
+  #resetButton {
+    background-color: #DBC980;
+    display: block; 
+    margin: 10px auto; 
+    margin-top: 20px;
+    }
+
 .container img {
     width: 200px;/* Ajustado para todas as imagens terem o mesmo tamanho */
     height: 300px;/* Ajustado para todas as imagens terem o mesmo tamanho */

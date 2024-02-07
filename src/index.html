@@ -14,7 +14,10 @@
   </header>
 
   <main>
+    <div class="search-container">
     <h2>Personalize sua busca:</h2>
+    <div class="filtros-container">
+    <div class="filtro">
     <label for="filtroGenero">Gênero:</label>
     <select id="filtroGenero" name="genero" data-testid="selecionar-filtro">
       <option value="todos">Selecionar Todos</option>
@@ -26,7 +29,8 @@
       <option value="romance">Romance</option>
       <option value="terror">Terror</option>
     </select>
-
+  </div>
+    <div class="filtro">
     <label for="filtroPreco">Preço:</label>
     <select id="filtroPreco" name="preço" data-testid="selecionar-filtro">
       <option value="todos">Selecionar Todos</option>
@@ -34,14 +38,18 @@
       <option value="$$">$$</option>
       <option value="$$$">$$$</option>
     </select>
-
+  </div>
+    <div class="filtro">
     <label for="ordenarPor">Ordenar por:</label>
     <select id="ordenarPor" name="ordem" data-testid="selecionar-ordem">
       <option value="asc">A-Z</option>
       <option value="desc">Z-A</option>
     </select>
-
+  </div>
+ </div>   
+</div>
     <button id="resetButton" data-testid="button-clear">Mostrar Todos</button>
+  
 
     <section id="root"></section>
   </main>
