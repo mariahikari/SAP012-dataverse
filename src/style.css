@@ -1,5 +1,6 @@
-
-body, h1, #root{
+body,
+h1,
+#root {
     background-color: #EFDDE1;
 }
 
@@ -8,66 +9,86 @@ header h1 {
     text-align: center;
     color: #704E4E;
     font-weight: bold;
-    font-size: 50px; 
+    font-size: 50px;
     margin-bottom: 0px;
 }
 
 /* resolvido erro no teste > incluido o footer */
-p, footer{
-    background-color:  #DBC980;
+p,
+footer {
+    background-color: #DBC980;
     font-weight: bold;
-    font-size: 18px; 
+    font-size: 18px;
     text-align: center;
     color: white;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-bottom: 0px; /* nao é certo usar 0px. procurar depois como substituir isso */
+    margin-bottom: 0px;
+    /* nao é certo usar 0px. procurar depois como substituir isso */
 }
 
-main{
+main {
     background-color: #92C195;
-    font-size: 12px; 
+    font-size: 12px;
     color: white;
 }
-  
-  .filtros {
-    display: flex; /* Usa o layout flexível */
-    justify-content: space-between; /* Distribui os itens uniformemente */
+
+.filtros {
+    display: flex;
+    /* Usa o layout flexível */
+    justify-content: space-between;
+    /* Distribui os itens uniformemente */
     align-items: center;
-    margin-left: 20px;
-  }
-  
-  select {
-    flex: 1; /* Ocupa o mesmo espaço disponível */
-    margin-right: 10px; 
-    
-  }
-  
-  #resetButton {
+    margin-left: 10px;
+}
+
+h2{
+    margin-right: 10px;
+}
+
+label{
+    font-size: 13px;
+}
+
+select {
+    flex: 1;
+    /* Ocupa o mesmo espaço disponível */
+    margin-right: 10px;
+}
+
+#resetButton {
     background-color: #DBC980;
-    display: block; /* Torna o botão um bloco */
-    margin: 10px auto; /* Centraliza horizontalmente com margens */
+    display: block;
+    /* Torna o botão um bloco */
+    margin: 10px auto;
+    /* Centraliza horizontalmente com margens */
     margin-top: 20px;
     padding-top: 8px;
-    padding-bottom: 8px; /* ajustar isso depois. limpar mais o código */
+    padding-bottom: 8px;
+    /* ajustar isso depois. limpar mais o código */
     padding-right: 20px;
     padding-left: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
     margin-top: 0px;
-    }
+}
 
 .container img {
-    width: 200px;/* Ajustado para todas as imagens terem a mesma largura */
-    height: 300px;/* Ajustado para todas as imagens terem a mesma altura */
+    width: 200px;
+    /* Ajustado para todas as imagens terem a mesma largura */
+    height: 300px;
+    /* Ajustado para todas as imagens terem a mesma altura */
     margin-bottom: 10px;
-    margin: 0 auto; /* Centraliza a imagem horizontalmente */
-    display: block; /* Remove espaçamento extra da imagem */
+    margin: 0 auto;
+    /* Centraliza a imagem horizontalmente */
+    display: block;
+    /* Remove espaçamento extra da imagem */
 }
 
 .container {
     display: flex;
-    flex-direction: row; /* Direção da linha */
+    flex-direction: row;
+    /* Direção da linha */
     flex-wrap: wrap;
     border-radius: 10px;
     padding: 1rem 1rem;
@@ -76,25 +97,28 @@ main{
 
 .livro_name {
     font-weight: bold;
-    font-size: 18px; 
-    text-align: center; /* Incluido para centralizar o texto dentro do card */
-    margin-top: 10px; 
+    font-size: 18px;
+    text-align: center;
+    /* Incluido para centralizar o texto dentro do card */
+    margin-top: 10px;
 }
 
-.autora_name { /*Classe adicionada para o nome da autora se destacar das demais infos*/
+.autora_name {
+    /*Classe adicionada para o nome da autora se destacar das demais infos*/
     font-weight: bold;
-    font-size: 13px; 
+    font-size: 13px;
     text-align: center;
     margin-bottom: 8px;
 }
 
 dl {
-    background-color:  #DBC980;
+    background-color: #DBC980;
     margin: 10px;
     padding: 20px;
     border-radius: 10px;
     max-width: 300px;
-    flex: 1; /*incluido para todos os cards terem o mesmo tamanho*/
+    flex: 1;
+    /*incluido para todos os cards terem o mesmo tamanho*/
 }
 
 dd {
@@ -103,8 +127,8 @@ dd {
     margin: 0px;
 }
 
-.verMais { /*Classe adicionada separar o Ver Mais das informações anteriores*/
-    font-size: 13px; 
+.verMais {
+    /*Classe adicionada separar o Ver Mais das informações anteriores*/
+    font-size: 13px;
     margin-top: 8px;
 }
-
