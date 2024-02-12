@@ -4,58 +4,55 @@
 <head>
   <meta charset="utf-8">
   <title>AUTORAS EM FOCO</title> <!-- //Define o título da página -->
-  <link rel="stylesheet" href="style.css" /> 
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <header> <!-- Início do cabeçalho da página --> 
+  <header> <!-- Início do cabeçalho da página -->
     <h1>AUTORAS EM FOCO</h1> <!-- Título principal da página -->
     <p>Conecte-se e celebre histórias escritas por mulheres extraordinárias</p> <!-- Parágrafo de introdução -->
   </header> <!-- Fim do cabeçalho da página -->
 
   <main> <!-- Início do conteúdo principal da página -->
-    <div class="search-container"> <!-- Contêiner para os elementos relacionados à busca -->
-    <h2>Personalize sua busca:</h2> <!-- Título secundário indicando que a busca pode ser personalizada -->
-    <div class="filtros-container"> <!-- Contêiner para os filtros de busca -->
-    <div class="filtro"> <!-- Contêiner para o filtro de gênero -->
-    <label for="filtroGenero">Gênero:</label> <!-- Rótulo do filtro de gênero -->
-    <select id="filtroGenero" name="genero" data-testid="select-filter"> <!-- Lista suspensa para seleção do gênero -->  <!-- AJUSTADO DATA-TESTID, CONFORMTE README *************-->
-      <!-- Opções para selecionar o gênero -->
-      <option value="todos">Selecionar Todos</option>
-      <option value="biografia">Biografia</option>
-      <option value="Educação Financeira">Educação Financeira</option>
-      <option value="feminismo">Feminismo</option>
-      <option value="ficção">Ficção</option>
-      <option value="parentalidade">Parentalidade</option>
-      <option value="romance">Romance</option>
-      <option value="terror">Terror</option>
-    </select>
-  </div>
+    <div class="filtros"> <!-- Contêiner para os elementos relacionados à busca -->
+      <h2>Personalize sua busca:</h2> <!-- Título secundário indicando que a busca pode ser personalizada -->
 
-    <div class="filtro"> <!-- Contêiner para o filtro de preço -->
-    <label for="filtroPreco">Preço:</label> <!-- Rótulo do filtro de preço -->
-    <select id="filtroPreco" name="preço" data-testid="select-sort"> <!-- Lista suspensa para seleção do preço -->  <!-- AJUSTADO DATA-TESTID, CONFORMTE README *************-->
-      <!-- Opções para selecionar o preço -->
-      <option value="todos">Selecionar Todos</option> 
-      <option value="$">$</option>
-      <option value="$$">$$</option>
-      <option value="$$$">$$$</option>
-    </select>
-  </div>
+      <!-- Contêiner para o filtro de gênero -->
+      <label for="filtroGenero">Gênero:</label> <!-- Rótulo do filtro de gênero -->
+      <select id="filtroGenero" name="genero" data-testid="select-filter">
+        <!-- Lista suspensa para seleção do gênero --> <!-- AJUSTADO DATA-TESTID, CONFORMTE README *************-->
+        <!-- Opções para selecionar o gênero -->
+        <option value="todos">Selecionar Todos</option>
+        <option value="biografia">Biografia</option>
+        <option value="Educação Financeira">Educação Financeira</option>
+        <option value="feminismo">Feminismo</option>
+        <option value="ficção">Ficção</option>
+        <option value="parentalidade">Parentalidade</option>
+        <option value="romance">Romance</option>
+        <option value="terror">Terror</option>
+      </select>
 
-    <div class="filtro"> <!-- Contêiner para o filtro de ordenação -->
-    <label for="ordenarPor">Ordenar por:</label> <!-- Rótulo do filtro de ordenação -->
-    <select id="ordenarPor" name="ordem" data-testid="selecionar-ordem"> <!-- Lista suspensa para seleção da ordem -->
-      <!-- Opções para selecionar a ordem -->
-      <option value="asc">A-Z</option>
-      <option value="desc">Z-A</option>
-    </select>
-  </div>
- </div>   
-</div>
+      <label for="filtroPreco">Preço:</label> <!-- Rótulo do filtro de preço -->
+      <select id="filtroPreco" name="preço" data-testid="select-sort"> <!-- Lista suspensa para seleção do preço -->
+        <!-- AJUSTADO DATA-TESTID, CONFORMTE README *************-->
+        <!-- Opções para selecionar o preço -->
+        <option value="todos">Selecionar Todos</option>
+        <option value="$">$</option>
+        <option value="$$">$$</option>
+        <option value="$$$">$$$</option>
+      </select>
+
+      <label for="ordenarPor">Ordenar por:</label> <!-- Rótulo do filtro de ordenação -->
+      <select id="ordenarPor" name="ordem" data-testid="selecionar-ordem"> <!-- Lista suspensa para seleção da ordem -->
+        <!-- Opções para selecionar a ordem -->
+        <option value="asc">A-Z</option>
+        <option value="desc">Z-A</option>
+      </select>
+
+    </div>
 
     <button id="resetButton" data-testid="button-clear">Mostrar Todos</button> <!-- Botão para redefinir a busca -->
-  
+
     <section id="root"></section> <!-- Seção onde os itens da busca serão exibidos -->
   </main>
 

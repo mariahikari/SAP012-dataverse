@@ -3,7 +3,8 @@ body, h1, #root{
     background-color: #EFDDE1;
 }
 
-h1 {
+/* resolvido erro no teste > incluido o footer */
+header h1 {
     text-align: center;
     color: #704E4E;
     font-weight: bold;
@@ -11,7 +12,8 @@ h1 {
     margin-bottom: 0px;
 }
 
-p{
+/* resolvido erro no teste > incluido o footer */
+p, footer{
     background-color:  #DBC980;
     font-weight: bold;
     font-size: 18px; 
@@ -28,14 +30,14 @@ main{
     color: white;
 }
   
-  .search-container, .filtros-container {
+  .filtros {
     display: flex; /* Usa o layout flexível */
     justify-content: space-between; /* Distribui os itens uniformemente */
     align-items: center;
     margin-left: 20px;
   }
   
-  .filtro {
+  select {
     flex: 1; /* Ocupa o mesmo espaço disponível */
     margin-right: 10px; 
     
@@ -105,3 +107,4 @@ dd {
     font-size: 13px; 
     margin-top: 8px;
 }
+
