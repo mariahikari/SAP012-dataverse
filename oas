@@ -1,0 +1,27 @@
+
+> dataverse@1.0.0 pretest
+> npm run eslint && npm run htmlhint
+
+
+> dataverse@1.0.0 eslint
+> eslint --ext .js src/ test/
+
+
+> dataverse@1.0.0 htmlhint
+> htmlhint src/*.html test/*.html
+
+
+Scanned 1 files, no errors found (20 ms).
+
+> dataverse@1.0.0 test
+> jest --verbose --coverage test/
+
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |    92.3 |       75 |     100 |    90.9 |                   
+ src               |   91.66 |       75 |     100 |      90 |                   
+  dataFunctions.js |   91.66 |       75 |     100 |      90 | 23                
+ test              |     100 |      100 |     100 |     100 |                   
+  data.js          |     100 |      100 |     100 |     100 |                   
+-------------------|---------|----------|---------|---------|-------------------

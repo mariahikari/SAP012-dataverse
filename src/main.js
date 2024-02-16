@@ -1,4 +1,4 @@
-import { filterData, sortData } from './dataFunctions.js';
+import { filterData, sortData} from './dataFunctions.js';
 import { renderItems } from './view.js';
 import data from './data/dataset.js';
 
@@ -12,7 +12,14 @@ const cardsLivros = document.querySelector('#root');
 // Função para renderizar os livros com base nos dados fornecidos
 const renderizarLivros = (dados) => {
   cardsLivros.innerHTML = ''; // Limpa o conteúdo atual
-  cardsLivros.appendChild(renderItems(dados)); // Renderiza os livros
+  if (dados.length === 0) {
+    const semResultado = document.createElement('p');
+    semResultado.textContent = 'Estante vazia';
+    cardsLivros.appendChild(semResultado);
+  }
+  else {
+    cardsLivros.appendChild(renderItems(dados)); // Renderiza os livros
+  }
 };
 
 // Função para filtrar e ordenar os livros com base nos filtros e na ordem selecionada

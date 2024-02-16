@@ -111,13 +111,14 @@ select {
     margin-bottom: 8px;
 }
 
-dl {
+li {
     background-color: #DBC980;
     margin: 10px;
     padding: 20px;
     border-radius: 10px;
     max-width: 300px;
-    flex: 1;
+    width: 20%;
+    list-style: none;
     /*incluido para todos os cards terem o mesmo tamanho*/
 }
 
@@ -127,8 +128,9 @@ dd {
     margin: 0px;
 }
 
-.verMais {
+.verMais li{
     /*Classe adicionada separar o Ver Mais das informações anteriores*/
     font-size: 13px;
     margin-top: 8px;
+    width: 80%;
 }
