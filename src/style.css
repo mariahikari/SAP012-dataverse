@@ -2,6 +2,7 @@ body,
 h1,
 #root {
     background-color: #EFDDE1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* resolvido erro no teste > incluido o footer */
@@ -24,13 +25,21 @@ footer {
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 0px;
-    /* nao é certo usar 0px. procurar depois como substituir isso */
 }
 
 main {
     background-color: #92C195;
     font-size: 12px;
     color: white;
+}
+
+.mensagem-sem-resultado {
+    background-color: #EFDDE1;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: #704E4E;
+    padding: 80px;
 }
 
 .filtros {
@@ -54,6 +63,7 @@ select {
     flex: 1;
     /* Ocupa o mesmo espaço disponível */
     margin-right: 10px;
+    cursor: pointer;
 }
 
 #resetButton {
@@ -66,11 +76,15 @@ select {
     padding-top: 8px;
     padding-bottom: 8px;
     /* ajustar isso depois. limpar mais o código */
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 80px;
+    padding-left: 80px;
     border-radius: 10px;
     margin-bottom: 20px;
     margin-top: 0px;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .container img {
@@ -120,6 +134,7 @@ li {
     width: 20%;
     list-style: none;
     /*incluido para todos os cards terem o mesmo tamanho*/
+    flex: 1;
 }
 
 dd {

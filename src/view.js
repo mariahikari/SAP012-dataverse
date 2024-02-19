@@ -18,10 +18,7 @@ export const renderItems = (data) => {
         <details class="verMais">
         <summary><strong>Ver +</strong></summary>
         <ul>
-        <li>Sobre o livro: ${item.sobreOLivro}</li>
         <li>Sinopse: ${item.sinopse}</li>
-        <li>Prêmios: ${item.curiosidade.premios}</li>
-        <li>Adaptações: ${item.curiosidade.adaptações}</li>
         </ul>
         </details>
       </dl>

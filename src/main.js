@@ -13,8 +13,9 @@ const cardsLivros = document.querySelector('#root');
 const renderizarLivros = (dados) => {
   cardsLivros.innerHTML = ''; // Limpa o conteúdo atual
   if (dados.length === 0) {
-    const semResultado = document.createElement('p');
-    semResultado.textContent = 'Estante vazia';
+    const semResultado = document.createElement('div');
+    semResultado.textContent = 'Parece que estamos com uma estante meio vazia! Que tal ajustar os filtros ou explorar outros gêneros para encontrar sua próxima leitura favorita?';
+    semResultado.classList.add('mensagem-sem-resultado');
     cardsLivros.appendChild(semResultado);
   }
   else {
