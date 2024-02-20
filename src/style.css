@@ -48,6 +48,15 @@ main {
     padding: 80px;
 }
 
+.estatistica {
+    background-color: #EFDDE1;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: #704E4E;
+    padding: 80px;
+}
+
 .filtros {
     display: flex;
     /* Usa o layout flexível */

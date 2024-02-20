@@ -27,3 +27,4 @@ export const renderItems = (data) => {
   })
   return cards; // Retorna o elemento <ul> (cards) contendo todos os itens renderizados.
 };
+
