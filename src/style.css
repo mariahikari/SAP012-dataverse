@@ -14,6 +14,12 @@ header h1 {
     margin-bottom: 0px;
 }
 
+.headerPng {
+    float: left;
+    width: 150px;
+    height: 155px;
+  }
+
 /* resolvido erro no teste > incluido o footer */
 p,
 footer {
