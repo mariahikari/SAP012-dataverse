@@ -29,14 +29,12 @@ export const sortData = (data, sortBy, sortOrder) => {
 
 
 // // uma função computeStats que possui pelo menos um parâmetro (data) e retorna um valor computado
-// export const computeStats = (data) => {
-//   const stats = data.map(item.genero)
 
-//   if stats(item.genero) {
+export const computeStats = (data) => {
+  const count = data.reduce((accumulator) => accumulator + 1, 0);
 
-//   }
-// }
-
+  return count;
+};
 
 
 
