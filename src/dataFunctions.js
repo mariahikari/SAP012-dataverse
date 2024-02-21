@@ -32,15 +32,6 @@ export const computeStats = (data) => {
 
 
 
-// // uma função computeStats que possui pelo menos um parâmetro (data) e retorna um valor computado
-// export const computeStats = (data) => {
-//   const stats = data.map(item.genero)
-
-//   if stats(item.genero) {
-
-//   }
-// }
-
 
 
 

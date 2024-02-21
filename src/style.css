@@ -16,8 +16,9 @@ header h1 {
 
 .headerPng {
     float: left;
-    width: 150px;
+    width: 115px;
     height: 155px;
+   
   }
 
 /* resolvido erro no teste > incluido o footer */
@@ -55,6 +56,12 @@ main {
     text-align: center;
     color: #704E4E;
     padding: 80px;
+}
+
+#quantidadeDeLivros {
+    font-size: 18px;
+    margin: 20px;
+
 }
 
 .filtros {
@@ -158,9 +165,26 @@ dd {
     margin: 0px;
 }
 
-.verMais li{
-    /*Classe adicionada separar o Ver Mais das informações anteriores*/
-    font-size: 13px;
-    margin-top: 8px;
-    width: 80%;
-}
+.verMais {
+    margin-top: 10px;
+  }
+  
+  .verMais summary {
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+  .verMais ul {
+    padding: 0px;
+    
+  }
+  
+  .verMais li {
+    width: 100%;
+    padding: 0px;
+    margin: 2px;
+    text-align: justify;
+
+  }
+  

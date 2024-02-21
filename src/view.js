@@ -16,9 +16,9 @@ export const renderItems = (data) => {
         <dd itemprop="numeroDePaginas">Páginas: ${item.detalhes.numeroDePaginas}</dd>
         <dd itemprop="preco">Preço: ${item.detalhes.preçoMedio}</dd>
         <details class="verMais">
-        <summary><strong>Ver +</strong></summary>
+        <summary><strong>+ Sinopse</strong></summary>
         <ul>
-        <li>Sinopse: ${item.sinopse}</li>
+        <li> ${item.sinopse}</li>
         </ul>
         </details>
       </dl>

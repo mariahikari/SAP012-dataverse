@@ -8,6 +8,7 @@ const filtroPreco = document.querySelector('#filtroPreco');
 const ordenarPor = document.querySelector('#ordenarPor');
 const resetButton = document.querySelector('#resetButton');
 const cardsLivros = document.querySelector('#root');
+const quantidadeDeLivros = document.querySelector('#quantidadeDeLivros');
 
 // Função para renderizar os livros com base nos dados fornecidos
 const renderizarLivros = (dados) => {
@@ -21,6 +22,7 @@ const renderizarLivros = (dados) => {
   else {
     cardsLivros.appendChild(renderItems(dados)); // Renderiza os livros
   }
+  
 };
 
 // Função para filtrar e ordenar os livros com base nos filtros e na ordem selecionada
@@ -45,7 +47,8 @@ const filtrarEOrdenarLivros = () => {
 
   renderizarLivros(dadosFiltrados); // Renderiza os livros filtrados e ordenados
 
-  computeStats(dadosFiltrados)
+  const totalLivros = computeStats(dadosFiltrados);
+  quantidadeDeLivros.textContent = `Quantidade de livros: ${totalLivros}`;
 };
 
 
@@ -63,5 +66,7 @@ resetButton.addEventListener('click', () => {
   filtroGenero.value = 'todos';
   filtroPreco.value = 'todos';
   ordenarPor.value = 'asc'; // Define a ordem padrão para ascendente ao redefinir os filtros
+  quantidadeDeLivros.textContent = '';
+
   renderizarLivros(data); // Renderiza todos os livros novamente
 });
