@@ -18,8 +18,8 @@ header h1 {
     float: left;
     width: 115px;
     height: 155px;
-   
-  }
+
+}
 
 /* resolvido erro no teste > incluido o footer */
 p,
@@ -73,11 +73,11 @@ main {
     margin-left: 10px;
 }
 
-h2{
+h2 {
     margin-right: 10px;
 }
 
-label{
+label {
     font-size: 13px;
 }
 
@@ -147,7 +147,7 @@ select {
     margin-bottom: 8px;
 }
 
-li {
+.detalhesDosLivros {
     background-color: #DBC980;
     margin: 10px;
     padding: 20px;
@@ -167,24 +167,24 @@ dd {
 
 .verMais {
     margin-top: 10px;
-  }
-  
-  .verMais summary {
+}
+
+.verMais summary {
     cursor: pointer;
     font-weight: bold;
     display: inline-block;
-  }
-  
-  .verMais ul {
+}
+
+.verMais ul {
     padding: 0px;
-    
-  }
-  
-  .verMais li {
+
+}
+
+.verMais li {
     width: 100%;
     padding: 0px;
     margin: 2px;
     text-align: justify;
+    list-style: none;
 
-  }
-  
+}

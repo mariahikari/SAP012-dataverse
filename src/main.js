@@ -1,4 +1,4 @@
-import { filterData, sortData, computeStats} from './dataFunctions.js';
+import { filterData, sortData, computeStats } from './dataFunctions.js';
 import { renderItems } from './view.js';
 import data from './data/dataset.js';
 
@@ -22,7 +22,7 @@ const renderizarLivros = (dados) => {
   else {
     cardsLivros.appendChild(renderItems(dados)); // Renderiza os livros
   }
-  
+
 };
 
 // Função para filtrar e ordenar os livros com base nos filtros e na ordem selecionada
@@ -60,8 +60,8 @@ filtroPreco.addEventListener('change', filtrarEOrdenarLivros); // Event listener
 
 ordenarPor.addEventListener('change', filtrarEOrdenarLivros); // Event listener para o seletor de ordenação
 
-// Event listener para o botão de reset
-resetButton.addEventListener('click', () => {
+
+resetButton.addEventListener('click', () => { // Event listener para o botão de reset
   // Define os valores padrão para os filtros
   filtroGenero.value = 'todos';
   filtroPreco.value = 'todos';
