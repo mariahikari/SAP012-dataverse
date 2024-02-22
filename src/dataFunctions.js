@@ -25,7 +25,7 @@ export const sortData = (data, sortBy, sortOrder) => {
 };
 
 export const computeStats = (data) => {
-  const count = data.reduce((accumulator) => accumulator + 1, 0);
+  const count = data.map(item => item.genero).reduce((accumulator) => accumulator + 1, 0);
 
   return count;
 };
