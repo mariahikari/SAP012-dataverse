@@ -127,6 +127,7 @@ describe('Manejo de eventos del DOM', () => {
   it('Se registra un Event Listener con un parametro de evento', () => {
     expect(
       addEventListenerCalls.some((node) => {
+        console.log(node.arguments[1].params, node.arguments[1])
         if (node.arguments[1].params.length === 0) return false;
         // que existe un param tipo { target } { currentTarget }
         const hasTargetParam = node.arguments[1].params[0].type === 'ObjectPattern' && (

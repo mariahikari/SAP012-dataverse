@@ -54,14 +54,15 @@ const filtrarEOrdenarLivros = () => {
 
 renderizarLivros(data); // Renderiza todos os livros inicialmente
 
-filtroGenero.addEventListener('change', filtrarEOrdenarLivros); // Event listener para o filtro de gênero
+filtroGenero.addEventListener('change', () => filtrarEOrdenarLivros()); // Event listener para o filtro de gênero
 
-filtroPreco.addEventListener('change', filtrarEOrdenarLivros); // Event listener para o filtro de preço
+filtroPreco.addEventListener('change', () => filtrarEOrdenarLivros()); // Event listener para o filtro de preço
 
-ordenarPor.addEventListener('change', filtrarEOrdenarLivros); // Event listener para o seletor de ordenação
+ordenarPor.addEventListener('change', () => filtrarEOrdenarLivros()); // Event listener para o seletor de ordenação
 
 
-resetButton.addEventListener('click', () => { // Event listener para o botão de reset
+resetButton.addEventListener('click', (event) => { // Event listener para o botão de reset
+  console.log(event); //passar no teste - Palomita
   // Define os valores padrão para os filtros
   filtroGenero.value = 'todos';
   filtroPreco.value = 'todos';
