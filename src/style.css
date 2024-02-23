@@ -94,7 +94,6 @@ select {
     /* Torna o botão um bloco */
     margin: 10px auto;
     /* Centraliza horizontalmente com margens */
-    margin-top: 20px;
     padding-top: 8px;
     padding-bottom: 8px;
     /* ajustar isso depois. limpar mais o código */
@@ -102,7 +101,6 @@ select {
     padding-left: 80px;
     border-radius: 10px;
     margin-bottom: 20px;
-    margin-top: 0px;
     border: 0;
     color: white;
     font-weight: bold;

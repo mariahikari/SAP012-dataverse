@@ -4,7 +4,7 @@
 // 3. value (o valor pelo qual os dados serão filtrados).
 export const filterData = (data, filterBy, value) => {
   const filteredData = data.filter(item => { // Utiliza o método filter() para iterar sobre o array data e filtrar os itens que satisfazem a condição.
-    return item.detalhes[filterBy].toLowerCase() === value.toLowerCase(); // Verifica se o valor da propriedade detalhes (especificada por filterBy) do item é igual a value, após converter ambos para minúsculas para garantir comparação case-insensitive.
+    return item.facts[filterBy].toLowerCase() === value.toLowerCase(); // Verifica se o valor da propriedade detalhes (especificada por filterBy) do item é igual a value, após converter ambos para minúsculas para garantir comparação case-insensitive.
   });
   return filteredData; // Retorna um novo array contendo apenas os itens filtrados.
 };
@@ -25,7 +25,7 @@ export const sortData = (data, sortBy, sortOrder) => {
 };
 
 export const computeStats = (data) => {
-  const count = data.map(item => item.genero).reduce((accumulator) => accumulator + 1, 0);
+  const count = data.map(item => item.generoLivro).reduce((accumulator) => accumulator + 1, 0);
 
   return parseInt(count);
 };
