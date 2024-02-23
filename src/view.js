@@ -10,15 +10,15 @@ export const renderItems = (data) => {
     <li itemscope itemtype="autorasEmFoco" class="detalhesDosLivros">
       <dl>
         <dt><img src=${item.imageUrl} alt="Capa do Livro" /></dt>
-        <dd itemprop="livro" class="livro_name">${item.livro}</dd>
-        <dd itemprop="autora" class="autora_name">${item.autora}</dd>
-        <dd itemprop="genero">Gênero: ${item.detalhes.genero}</dd>
-        <dd itemprop="numeroDePaginas">Páginas: ${item.detalhes.numeroDePaginas}</dd>
-        <dd itemprop="preco">Preço: ${item.detalhes.preçoMedio}</dd>
+        <dd itemprop="livro" class="livro_name">${item.name}</dd>
+        <dd itemprop="autora" class="autora_name">${item.facts.autoraLivro}</dd>
+        <dd itemprop="genero">Gênero: ${item.facts.generoLivro}</dd>
+        <dd itemprop="numeroDePaginas">Páginas: ${item.facts.numeroDePaginas}</dd>
+        <dd itemprop="preco">Preço: ${item.facts.precoMedio}</dd>
         <details class="verMais">
         <summary><strong>+ Sinopse</strong></summary>
         <ul>
-        <li> ${item.sinopse}</li>
+        <li> ${item.description}</li>
         </ul>
         </details>
       </dl>

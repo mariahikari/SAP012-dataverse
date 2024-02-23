@@ -35,15 +35,15 @@ const filtrarEOrdenarLivros = () => {
   // Filtrar os dados com base no gênero e no preço
   let dadosFiltrados = data;
   if (generoSelecionado !== 'todos') {
-    dadosFiltrados = filterData(data, 'genero', generoSelecionado);
+    dadosFiltrados = filterData(data, 'generoLivro', generoSelecionado);
   }
 
   if (precoSelecionado !== 'todos') {
-    dadosFiltrados = filterData(dadosFiltrados, 'preçoMedio', precoSelecionado);
+    dadosFiltrados = filterData(dadosFiltrados, 'precoMedio', precoSelecionado);
   }
 
   // Ordenar os dados de acordo com a opção selecionada
-  dadosFiltrados = sortData(dadosFiltrados, 'livro', ordenacaoSelecionada);
+  dadosFiltrados = sortData(dadosFiltrados, 'name', ordenacaoSelecionada);
 
   renderizarLivros(dadosFiltrados); // Renderiza os livros filtrados e ordenados
 
