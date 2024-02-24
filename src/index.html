@@ -34,7 +34,7 @@
       </select>
 
       <label for="filtroPreco">Preço:</label> <!-- Rótulo do filtro de preço -->
-      <select id="filtroPreco" name="preço" data-testid="select-sort"> <!-- Lista suspensa para seleção do preço -->
+      <select id="filtroPreco" name="preço" > <!-- Lista suspensa para seleção do preço    //   excluido o data test id para passar no e2e--> 
         
         <!-- Opções para selecionar o preço -->
         <option value="todos">Selecionar Todos</option>
@@ -44,7 +44,7 @@
       </select>
 
       <label for="ordenarPor">Ordenar por:</label> <!-- Rótulo do filtro de ordenação -->
-      <select id="ordenarPor" name="ordem" data-testid="selecionar-ordem"> <!-- Lista suspensa para seleção da ordem -->
+      <select id="ordenarPor" name="ordem" data-testid="select-sort"> <!-- Lista suspensa para seleção da ordem -->
         <!-- Opções para selecionar a ordem -->
         <option value="asc">A-Z</option>
         <option value="desc">Z-A</option>
