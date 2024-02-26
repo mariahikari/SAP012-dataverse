@@ -56,11 +56,11 @@ Neste projeto, foi utilizado o _Github Pages_ para implantar o site: [Autoras em
 + CSS
 + Vanilla JavaScript
 
-## Geração de dados
+### Geração de dados
 
 + ChatGPT
 
-## Prototipagem
+### Prototipagem
 
 + Figma
 
