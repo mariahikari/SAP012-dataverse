@@ -16,7 +16,7 @@ export const renderItems = (data) => {
         <dd itemprop="numeroDePaginas">Páginas: ${item.facts.numeroDePaginas}</dd>
         <dd itemprop="preco">Preço: ${item.facts.precoMedio}</dd>
         <details class="verMais">
-        <summary><strong>+ Sinopse</strong></summary>
+        <summary><strong>Ver +</strong></summary>
         <ul>
         <li> ${item.description}</li>
         </ul>

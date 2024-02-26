@@ -48,7 +48,7 @@ const filtrarEOrdenarLivros = () => {
   renderizarLivros(dadosFiltrados); // Renderiza os livros filtrados e ordenados
 
   const totalLivros = computeStats(dadosFiltrados);
-  quantidadeDeLivros.textContent = `Quantidade de livros: ${totalLivros}`;
+  quantidadeDeLivros.textContent = `Exibindo ${totalLivros} livro(s)`;
 };
 
 

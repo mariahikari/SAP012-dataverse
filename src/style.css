@@ -7,7 +7,7 @@ h1,
 
 /* resolvido erro no teste > incluido o footer */
 header h1 {
-    text-align: center;
+    text-align: left;
     color: #704E4E;
     font-weight: bold;
     font-size: 50px;
@@ -18,11 +18,23 @@ header h1 {
     float: left;
     width: 115px;
     height: 155px;
+    padding-left: 30px;
+    padding-right: 30px;
 
 }
 
 /* resolvido erro no teste > incluido o footer */
-p,
+header p {
+    background-color: #DBC980;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+}
+
 footer {
     background-color: #DBC980;
     font-weight: bold;
@@ -49,18 +61,10 @@ main {
     padding: 80px;
 }
 
-.estatistica {
-    background-color: #EFDDE1;
-    font-weight: bold;
-    font-size: 18px;
-    text-align: center;
-    color: #704E4E;
-    padding: 80px;
-}
-
 #quantidadeDeLivros {
     font-size: 18px;
     margin: 20px;
+    text-align: center;
 
 }
 
