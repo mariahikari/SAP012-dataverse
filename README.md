@@ -34,7 +34,7 @@ Como resultado final, apresentamos **um site responsivo que possibilita a visual
 #### Deploy
 A aplicação foi publicada (ou _deployed_) para que as usuárias da web possam acessá-la.
 
-Neste projeto, foi utilizado o _Github Pages_ para implantar o site: [Autoras em Foco](https://marcelereis.github.io/SAP012-text-analyzer/).
+Neste projeto, foi utilizado o _Github Pages_ para implantar o site: [Autoras em Foco](https://mariahikari.github.io/SAP012-dataverse/).
 
 ## 2. Ferramentas utilizadas
 
