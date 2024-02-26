@@ -78,7 +78,7 @@ A lista de funcionalidades é a seguinte:
 - As operações de filtrar, ordenar, limpar, não recarregam a página, mas sim adicionam conteúdo de maneira dinâmica via JavaScript.
 - A aplicação é responsiva, ou seja, pode ser visualizada sem problemas em diferentes tamanhos de tela: celulares, tablets e desktops.
 
-![img](https://imgur.com/0DtPsIh.gif)
+![img](./src/data/assets/gif.gif)
 
 ## 4. Tarefas
 
