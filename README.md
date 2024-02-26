@@ -82,7 +82,7 @@ A lista de funcionalidades é a seguinte:
 
 ## 4. Tarefas
 
-## História da usuária
+### História da usuária
 
 Considerando a temática escolhida para o projeto (livros de autoras femininas), temos como objetivo resolver os problemas e atender à demanda do nosso público-alvo, que são:
 
@@ -94,7 +94,7 @@ Valorizando a diversidade literária, busca-se encontrar facilmente livros de au
 
 Como um indivíduo em busca de uma plataforma que facilite a descoberta de livros de autoras mulheres, reconhecendo a importância da diversidade de vozes na jornada de leitura. Deseja-se explorar novos gêneros e perspectivas, ampliando assim o horizonte intelectual e cultural.
 
-## Geração de dados
+### Geração de dados
 
 Por meio de Inteligência Artificial, ChatGPT foram gerados os dados utilizados no projeto.
 
@@ -105,7 +105,7 @@ Estes dados foram salvos em um arquivo JavaScript, que exporta uma matriz com 24
 
 <br><img src="https://imgur.com/68Tf01o.png">
 
-## Protótipo 
+### Protótipo 
 
 Depois, com o auxílio do Figma, elaborou-se um protótipo de alta fidelidade do site, onde foi enfatizado um design limpo, cores suaves e uma clara hierarquia de informações para facilitar a leitura das usuárias.
 
