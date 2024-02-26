@@ -103,7 +103,7 @@ Por meio de Inteligência Artificial, ChatGPT foram gerados os dados utilizados 
 <br>
 Estes dados foram salvos em um arquivo JavaScript, que exporta uma matriz com 24 objetos. A estrutura de cada objeto é a seguinte:
 
-<br><img src="https://imgur.com/68Tf01o.png">
+<img src="https://imgur.com/68Tf01o.png">
 
 ### Protótipo 
 
