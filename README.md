@@ -20,7 +20,7 @@
 
 ***
 
-## 1. Sobre o projeto
+## 1. Sobre o projeto.
 
 Neste projeto, desenvolvemos uma aplicação dedicado à visualização de um conjunto específico de dados. Utilizamos a tecnologia de inteligência artificial, **o ChatGPT**, para gerar um banco de dados em formato de arquivo JavaScript, utilizando o prompting como método.
 
